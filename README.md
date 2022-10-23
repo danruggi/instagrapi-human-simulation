@@ -24,8 +24,10 @@ Conf is saved in ./conf/$USERNAME/
 It creates one directory each account
 
 #### Use it
-```
+```bash
 python instabot.py 
+# or 
+python instabot.py user <username>
 ```
 
 it will ask for user, and should start automatically  
@@ -101,3 +103,11 @@ lines in instabot.py, around line ~100
 
 #### Remove account
 To remove an account, just delete the directory under ./conf/
+
+### Run the app as a container
+```bash
+docker build -t instabot .
+
+docker run -it -v /home/$USER/instabot/instagrapi-human-simulation/conf:/app/conf -v /home/$USER/instabot/instagrapi-human-simulation/downloads:/app/downloads instabot user <username>
+
+```

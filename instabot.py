@@ -20,34 +20,36 @@ import json
 ### my classes
 import classes.errors
 
-from classes.botconf import botConf;
-from classes.botconf import loadConf;
-from classes.botconf import loadCoolDownValues;
-from classes.init import initDirs;
-from classes.init import cleanFiles;
-from classes.stats import printStats;
-from classes.feed import gefFromFeed;
-from classes.getfromhashtag import getFromHashtag;
-from classes.cooldown import coolDownCheck;
-from classes.cooldown import coolDownCheckDay;
-from classes.cooldown import coolDownCheckHour;
-from classes.createdevice import newUser;
-from classes.unfollowusers import unfollowUsers;
-from classes.newfollowers import getNewFollowers;
+from classes.botconf import botConf
+from classes.botconf import loadConf
+from classes.botconf import loadCoolDownValues
+from classes.init import initDirs
+from classes.init import cleanFiles
+from classes.stats import printStats
+from classes.feed import gefFromFeed
+from classes.getfromhashtag import getFromHashtag
+from classes.cooldown import coolDownCheck
+from classes.cooldown import coolDownCheckDay
+from classes.cooldown import coolDownCheckHour
+from classes.createdevice import newUser
+from classes.unfollowusers import unfollowUsers
+from classes.newfollowers import getNewFollowers
 
 import argparse
 
 # Arguments and help
 parser = argparse.ArgumentParser(description="Human Being simulator using Instagram, to get follows back")
-subparser = parser.add_subparsers(dest='command')
-createUser = subparser.add_parser('new', help="Create new user dir and config files");
+subparsers = parser.add_subparsers(dest='command')
+createUser = subparsers.add_parser('new', help="Create new user dir and config files")
+noInput = subparsers.add_parser('user', help="To run application without the need of providing input. Provide direcly the username",)
+noInput.add_argument("user", help="provide the desired username", type=str)
 args = parser.parse_args()
 
 if args.command == "new":
 	print()
 	print("++ A new directory will be created under ./conf/$(USERNAME)/ with ")
 	print("++ all the needed configurations for new user")
-	print();
+	print()
 	u = str(input(">> New Username: "))
 	p = str(input(">> New Password: "))
 	print ()
@@ -56,62 +58,65 @@ if args.command == "new":
 	print ("++ dog;puppy;puppies;dogs;dogslover;puppylover;puppy35")
 	print ("++ Just alfanumeric chars are accepted ")
 	t = str(input(">> Tags: "))
-	newUser(u, p, t); #create new user, in classes/createdevice
-	quit();
+	newUser(u, p, t) #create new user, in classes/createdevice
+	quit()
 
 # Intro
 print("##########################################################################")
-print("########################                          ########################");
-print("########################       Instabot.py        ########################");
-print("########################  by Daniele Rugginenti   ########################");
-print("########################                          ########################");
-print("########################         v 0.0.1          ########################");
-print("########################         2022/10          ########################");
-print("########################                          ########################");
+print("########################                          ########################")
+print("########################       Instabot.py        ########################")
+print("########################  by Daniele Rugginenti   ########################")
+print("########################                          ########################")
+print("########################         v 0.0.1          ########################")
+print("########################         2022/10          ########################")
+print("########################                          ########################")
 print("##########################################################################")
 
 # launch the client for instagrapi 
 cl=Client() 
+user = None
 
 # Select user
-try:
-	users=next(os.walk("conf"))[1]; # check conf dirs
-except: 
-	print()
-	print(">>> Conf dir does not exists, read the help")
-	print(">>> exec: python instabot --help")
-	quit();
+if args.command == "user" and getattr(args, 'user', None):
+	user = args.user
+else:
+
+	try:
+		users=next(os.walk("conf"))[1] # check conf dirs
+	except: 
+		print()
+		print(">>> Conf dir does not exists, read the help")
+		print(">>> exec: python instabot --help")
+		quit()
 
 
-i=1;
-for user in users:
-	print (str(i)+" > "+user);
-	i+=1
+	i=1
+	for user in users:
+		print (str(i)+" > "+user)
+		i+=1
 
-position = -1;
-while position<=0 or position>len(users):
-	position = int(input("Chose user: "))
+	position = -1
+	while position<=0 or position>len(users):
+		position = int(input("Chose user: "))
 
+	### GLOBAL VARS
+	user = users[position-1]	
 
+conf = loadConf(user, cl)
+botConf = botConf(conf)
+coolDownMaxValues = loadCoolDownValues(conf)
 
-### GLOBAL VARS
-user = users[position-1];
-
-conf = loadConf(user, cl);
-botConf = botConf(conf);
-coolDownMaxValues = loadCoolDownValues(conf);
-
-username = conf["username"];
-password = conf["password"];
-tags = conf["tags"].split(";");
+username = conf["username"]
+password = conf["password"]
+tags = conf["tags"].split(";")
 confdir = conf["confdir"]
 
 #### INIT
-initDirs();
-cleanFiles(conf);
+initDirs()
+cleanFiles(conf)
 
 ### check instagrapi conf file 
-f=pathlib.Path(confdir+"login.json");
+f=pathlib.Path(confdir+"login.json")
 if not f.exists():
 	print("File login not found")
 	quit()
@@ -119,72 +124,72 @@ if not f.exists():
 # LOGIN
 cl.load_settings(confdir+"login.json")
 
-print (" >>>>>> Login <<<<<< ");
+print (" >>>>>> Login <<<<<< ")
 
 print (botConf.getConf())
 
 cl.login(username, password)
 cl.dump_settings(confdir+"login.json")
 
-printStats(conf);
+printStats(conf)
 
-print(" >>>>>> Begin <<<<<< ");
+print(" >>>>>> Begin <<<<<< ")
 
-execution_counter=1;
+execution_counter=1
 
 
 while 1:
 	# Today in UTC
-	cooldown_day_ts=conf["cooldown_day"]["curr"];
-	today_ts=time.mktime(time.strptime(str(datetime.now(timezone.utc)).split(" ")[0], '%Y-%m-%d'));
+	cooldown_day_ts=conf["cooldown_day"]["curr"]
+	today_ts=time.mktime(time.strptime(str(datetime.now(timezone.utc)).split(" ")[0], '%Y-%m-%d'))
 	if (today_ts > cooldown_day_ts):
 		## Reset daily counters
 		print("Resetting Daily counters ")
-		botConf.resetTodayConf(today_ts);
+		botConf.resetTodayConf(today_ts)
 
 	### This hour in UTC
-	hour_ts=time.mktime(time.strptime(str(datetime.now(timezone.utc)).split(":")[0], '%Y-%m-%d %H'));
-	cooldown_hour_ts=conf["cooldown_hour"]["curr"];
+	hour_ts=time.mktime(time.strptime(str(datetime.now(timezone.utc)).split(":")[0], '%Y-%m-%d %H'))
+	cooldown_hour_ts=conf["cooldown_hour"]["curr"]
 	if (hour_ts > cooldown_hour_ts):
-		botConf.resetHourConf(hour_ts);
+		botConf.resetHourConf(hour_ts)
 
 	print("****************************************** ")
-	print("#### Execution # "+str(execution_counter));
+	print("#### Execution # "+str(execution_counter))
 	
 	if not coolDownCheckDay(conf, coolDownMaxValues):
-		print("Cool Down Values Reached for the day, no go, sleep 4 hours");
+		print("Cool Down Values Reached for the day, no go, sleep 4 hours")
 		time.sleep(7200)
 		continue
 
 	if not coolDownCheckHour(conf, coolDownMaxValues):
-		print("Cool Down Values Reached for the Hour, no go, sleep 10 minutes");
+		print("Cool Down Values Reached for the Hour, no go, sleep 10 minutes")
 		time.sleep(600)
 		continue
 
 
-	getNewFollowers(conf);
+	getNewFollowers(conf)
 
 	#########
 	# FEED
-	# print(" Getting my feed");
+	# print(" Getting my feed")
 
 	r1=random.randint(0,10)
 	# if r1<6:
-	# 	print(" ++ Getting my feed");
+	# 	print(" ++ Getting my feed")
 	# 	gefFromFeed(conf)
 	# 	s=random.uniform(.5,5)
-	# 	time.sleep(s);
+	# 	time.sleep(s)
 
 	if r1<3:
-		unfollowUsers(conf);
+		unfollowUsers(conf)
 
 	#########
 	# HASTAGS
-	getFromHashtag(conf);
+	getFromHashtag(conf)
 
 	
 	
-	printStats(conf);
+	printStats(conf)
 	
 	#########
 	# SLEEP
@@ -198,8 +203,8 @@ while 1:
 	else:
 		r=random.randint(10,60)
 
-	print("#### End Execution # "+str(execution_counter));
+	print("#### End Execution # "+str(execution_counter))
 	execution_counter += 1
-	print("Sleeping "+str(r)+" seconds");
+	print("Sleeping "+str(r)+" seconds")
 	print("****************************************** ")
-	time.sleep(r);
+	time.sleep(r)

@@ -1,0 +1,4 @@
+instagrapi
+pytz
+langdetect
+pillow
