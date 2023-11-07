@@ -16,10 +16,12 @@ cl = Client()
 
 
 def newUser(u, p, t):
+	if not os.path.exists('conf'):
+		os.mkdir('conf')
+
 	confdir="conf/"+u+"/"
-	udir = pathlib.Path(confdir);
-	if not udir.exists():
-		os.mkdir(udir);
+	if not os.path.exists(confdir):
+		os.mkdir(confdir);
 
 	#### instagrapi file
 	file = pathlib.Path(confdir+"login.json");
