@@ -3,51 +3,53 @@ import os
 import random
 import urllib
 import urllib.request
+
 from classes.botconf import botConf;
-from classes.botconf import loadCoolDownValues;
+
+from libs.config import loadCoolDownValues;
 
 
 def downloadThumb(conf, pk, thumbnail_url):
 	confdir = conf["confdir"]
 	
-	if str(pk) in open(confdir+'thumbs_downloaded.csv').read():
-		print("x", end='')
-		return
+	with open(os.path.join(confdir,"thumbs_downloaded.csv")) as f:
+		if str(pk) in f.read():
+			print("x", end='')
+			return
 
 	if thumbnail_url is not None:
-		urllib.request.urlretrieve(thumbnail_url, "downloads/temp_thumb")
+		urllib.request.urlretrieve(thumbnail_url, os.path.join(conf["basedwndir"], "temp_thumb"))
 
 	print("o", end='');
 	# media checked
-	file1=open(confdir+"thumbs_downloaded.csv", "a")
-	file1.write(str(pk)+"\n")
-	file1.close();
+	with open(os.path.join(confdir, "thumbs_downloaded.csv"), "a") as f:
+		f.write(str(pk)+"\n")
 
 def downloadMedia(conf, pk, item_type, product_type):
 	cl = conf["cl"]
 	confdir = conf["confdir"]
 
-	if str(pk) in open(confdir+'medias_downloaded.csv').read():
-		print("[likeMedia] next")
-		return
+	with open(os.path.join(confdir, 'medias_downloaded.csv')) as f:
+		if str(pk) in f.read():
+			print("[likeMedia] next")
+			return
 
 	# media checked
-	file1=open(confdir+"medias_downloaded.csv", "a")
-	file1.write(str(pk)+"\n")
-	file1.close();
+	with open(os.path.join(confdir,'medias_downloaded.csv'), "a") as f:
+		f.write(str(pk)+"\n")	
 
 	print("[downloadMedia] Downloading media "+str(pk));
 	try:
 		if item_type==1:
-			cl.photo_download(pk, folder='downloads');
+			cl.photo_download(pk, folder=conf["basedwndir"]);
 		elif item_type==8:
 			if product_type == "album":
-				cl.album_download(pk, folder='downloads');
+				cl.album_download(pk, folder=conf["basedwndir"]);
 		elif item_type==2:
 			if product_type == "igtv":
-				cl.igtv_download(pk, folder='downloads');
+				cl.igtv_download(pk, folder=conf["basedwndir"]);
 			elif product_type == "video":
-				cl.video_download(pk, folder='downloads');
+				cl.video_download(pk, folder=conf["basedwndir"]);
 	except Exception as e:
 		print("\n[downloadMedia] Some error in feed downloads vvvv ");
 		print(e)
@@ -71,14 +73,14 @@ def likeMedia(conf, pk, product_type):
 		print("[likeMedia] Skipping ad")
 		return
 
-	if str(pk) in open(confdir+'medias_liked.csv').read():
-		print("[likeMedia] next")
-		return
+	with open(os.path.join(confdir,'medias_liked.csv')) as f:
+		if str(pk) in f.read(): 
+			print("[likeMedia] next")
+			return
 
 	# media checked
-	file1=open(confdir+"medias_liked.csv", "a")
-	file1.write(str(pk)+"\n")
-	file1.close();
+	with open(os.path.join(confdir,'medias_liked.csv'), 'a') as f:
+		f.write(str(pk)+"\n")
 	
 	
 	print("[likeMedia] Liking media "+str(pk));

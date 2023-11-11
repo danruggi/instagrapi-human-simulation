@@ -1,9 +1,11 @@
-from classes.botconf import botConf;
-from classes.botconf import loadCoolDownValues;
-from classes.media import downloadThumb;
+from libs.config import *
+from libs.media import downloadThumb;
+
+from classes.botconf import botConf
+
 import random
-from datetime import datetime, tzinfo, date, timezone
 import time
+from datetime import datetime, tzinfo, date, timezone
 #import calendar
 
 from langdetect import detect
@@ -14,22 +16,20 @@ def getNewFollowers(conf, cursor=None):
 	username = conf["username"]
 	localBotConf = botConf(conf);
 
-
 	my_pk = cl.user_id_from_username(username)
 	my_user_id_infos = cl.user_info(my_pk);
 	# followers = cl.user_followers(my_pk);
 	followers, cursor = cl.user_followers_v1_chunk(my_pk, 100, cursor)
 
 	for x in followers:
-		if x.pk not in open(confdir+'followers.csv').read():
+		if x.pk not in open(os.path.join(confdir, "followers.csv")).read():
 			print("[GetNewFollowers] Registering follower "+x.username);
-			file1=open(confdir+"followers.csv", "a")
-			file1.write(x.pk+"\n")
-			file1.close()
+			with open(os.path.join(confdir, "followers.csv"), "a") as f:
+				f.write(x.pk+"\n")
 
-			if x.pk in open(confdir+"followed.csv").read():
+			if x.pk in open(os.path.join(confdir, "followed.csv")).read():
 				#get when followed
-				with open(confdir+'followed.csv', 'rt') as f:
+				with open(os.path.join(confdir, "followed.csv"), 'rt') as f:
 					data = f.readlines()
 				
 				diffInDays=None
@@ -57,8 +57,9 @@ def sendMessage(conf, pk):
 	if conf["messages"]["active"] == 0:
 		return
 
-	if pk in open(confdir+'messages.csv').read():
-		return
+	with open(os.path.join(confdir, 'messages.csv'), 'r') as f:
+		if pk in f.read():
+			return
 	
 	user_info = cl.user_info(pk);
 	bio = user_info.biography;
@@ -71,9 +72,8 @@ def sendMessage(conf, pk):
 	m = conf["messages"]["texts"][lan];
 
 	print("[SendMessage] Sending Message in "+lan);
-	file1=open(confdir+"messages.csv", "a")
-	file1.write(pk+"\n")
-	file1.close()
+	with open(os.path.join(confdir, 'messages.csv'), 'a') as f:
+		f.write(pk+"\n")
 
 	# cl.direct_send(m, [9518783079]);
 	cl.direct_send(m, [pk]);

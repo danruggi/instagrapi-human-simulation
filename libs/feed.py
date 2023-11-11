@@ -1,6 +1,6 @@
 import random
-from classes.media import downloadMedia;
-from classes.media import likeMedia;
+from libs.media import downloadMedia;
+from libs.media import likeMedia;
 
 def gefFromFeed(conf):
 	cl=conf["cl"];

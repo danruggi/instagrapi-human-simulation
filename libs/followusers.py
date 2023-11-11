@@ -1,6 +1,8 @@
+from libs.config import *
+from libs.media import downloadThumb;
+
 from classes.botconf import botConf;
-from classes.botconf import loadCoolDownValues;
-from classes.media import downloadThumb;
+
 import random
 from datetime import datetime, tzinfo, date, timezone
 import time
@@ -11,6 +13,7 @@ def followUser(conf, pk):
 	confdir = conf["confdir"];
 	localBotConf = botConf(conf);
 	coolDownMaxValues = loadCoolDownValues(conf);
+
 	cl=conf["cl"]
 
 	a=bool(conf["cooldown_day"]["follows"] >= coolDownMaxValues["day_max_follows"]);
@@ -20,8 +23,9 @@ def followUser(conf, pk):
 		print("[followUser] Day: "+str(a)+", Hour: "+str(d))
 		return;
 
-	if pk in open(confdir+'followed.csv').read():
-		return
+	with open(os.path.join(confdir, 'followed.csv'), 'r') as f:
+		if pk in f.read():
+			return
 	
 	r2=random.randint(0,100)
 	follower_count=0;
@@ -41,11 +45,11 @@ def followUser(conf, pk):
 	
 	now_ts=str(time.mktime(time.strptime(str(datetime.now(timezone.utc)).split(".")[0], "%Y-%m-%d %H:%M:%S")))
 	if follower_count < 1400:
+
 		print("[followUser] Following user");
 		# Append to file at last
-		file1=open(confdir+"followed.csv", "a")
-		file1.write(now_ts+":"+pk+"\n")
-		file1.close()
+		with open(os.path.join(confdir, 'followed.csv'), 'a') as f:
+			f.write(now_ts+":"+pk+"\n")
 
 		localBotConf.confAddFollow();
 		cl.user_follow(pk) 

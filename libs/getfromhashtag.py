@@ -2,11 +2,8 @@ import urllib
 import urllib.request
 import random
 import time
-from classes.media import downloadThumb;
-from classes.media import downloadMedia;
-from classes.media import likeMedia;
-from classes.followusers import followMediaLikers;
-from classes.followusers import followUser;
+from libs.media import *
+from libs.followusers import *
 
 def getFromHashtag(conf, cursor=None):
 	tags = conf["tags"].split(";");
@@ -15,10 +12,12 @@ def getFromHashtag(conf, cursor=None):
 	refreshed=False;
 	
 	r1=random.randint(24, 32)
-	r2=random.randint(0, len(tags)-1)
-	# r1=2;
 	
-	tag=tags[r2]
+	tag = ""
+	while len(tag) == 0:
+		r2=random.randint(0, len(tags)-1)	
+		tag=tags[r2]
+		
 	print("Getting "+str(r1)+" medias for tag "+tag);
 	# medias = cl.hashtag_medias_recent(tag, amount=r1)
 	if cursor is None:
@@ -43,14 +42,14 @@ def getFromHashtag(conf, cursor=None):
 			print("[getHashtag] >>> User "+x.user.username)
 			print("[getHashtag] + mediaId: "+x.id+", mediaType: "+str(x.media_type), end=', ')
 
-			if str(x.id) in open(confdir+'medias_seen.csv').read():
-				print("next")
-				continue
+			with open(os.path.join(confdir, 'medias_seen.csv')) as f:
+				if str(x.id) in f.read():
+					print("next")
+					continue
 				
 			# media checked
-			file1=open(confdir+"medias_seen.csv", "a")
-			file1.write(str(x.id)+"\n")
-			file1.close()
+			with open(os.path.join(confdir, 'medias_seen.csv'), 'a') as f:
+				f.write(str(x.id)+"\n")
 			
 			# print(x.dict())
 			r1=random.uniform(0, 15);
@@ -77,8 +76,6 @@ def getFromHashtag(conf, cursor=None):
 
 			if r1<3.3:
 				followUser(conf, x.user.pk);
-				
-
 				r2=random.randint(0,100)
 				if r2<20:
 					followMediaLikers(conf, x.pk);
@@ -97,7 +94,7 @@ def getFromHashtag(conf, cursor=None):
 					print("o", end = '')
 					# print(xx.thumbnail_url);
 					if xx.thumbnail_url is not None:
-						urllib.request.urlretrieve(xx.thumbnail_url, "downloads/_tempthumb")
+						urllib.request.urlretrieve(xx.thumbnail_url, os.path.join(conf['basedwndir'], 'temp_thumb'))
 				print("")
 				
 				s=random.randrange(2,9)

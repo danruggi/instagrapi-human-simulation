@@ -1,37 +1,39 @@
 import pathlib
-import os
+import os, sys	
 import glob
 
 def initDirs():
-	f=pathlib.Path("downloads");
-	if not f.exists():
-		print("Dir 'downloads' not exists")
-		try: 
-			os.mkdir("downloads")
-		except:
-			print("Can't create downloads directory")
-			print("Manually create a dir called 'downloads' and execute again")
-			quit()
+	path = sys.path[0];
+	dwndir = os.path.join(path, 'downloads')
+	baseconfdir = os.path.join(path, "conf")
 
-	else:
-		print("Clean 'downloads' dir ", end="")
-		files = glob.glob('downloads/*');
+	if not os.path.exists(dwndir):
+		os.mkdir(dwndir)
 
-		for f in files:
-		    try:
-		        os.remove(f)
-		    except OSError as e:
-		        print("Error: %s : %s" % (f, e.strerror))
-		        
-		print("....Done")
+	if not os.path.exists(baseconfdir):
+		os.mkdir(baseconfdir)
 
-def cleanFiles(conf):
+def cleanDownloads(conf):
+	
+	print("Clean 'downloads' dir ", end="")
+	files = os.scandir(conf['basedwndir']);
+
+	for f in files:
+	    try:
+	        os.remove(f.path)
+	    except OSError as e:
+	        print("Error: %s : %s" % (f.name, e.strerror))
+	        
+	print("....Done")
+
+def cleanConf(conf):
 	linesToKeep=10000;
 	confdir = conf["confdir"]
 	csv = ["medias.csv", "medias_downloaded.csv", "medias_liked.csv", "medias_seen.csv", "thumbs_downloaded.csv", "followed.csv", "followers.csv"];
 
 	for f in csv:
-		with open(confdir+f, 'r+') as fp:
+
+		with open(os.path.join(confdir, f), 'r+') as fp:
 		    # read an store all lines into list
 		    lines = fp.readlines()
 		    if (len(lines) < linesToKeep):

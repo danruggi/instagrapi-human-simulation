@@ -1,9 +1,11 @@
 from classes.botconf import botConf;
-from classes.botconf import loadCoolDownValues;
-from classes.media import downloadThumb;
+
+from libs.config import *
+from libs.media import downloadThumb;
+
 import random
-from datetime import datetime, tzinfo, date, timezone
 import time
+from datetime import datetime, tzinfo, date, timezone
 #import calendar
 
 def unfollowUsers(conf):
@@ -11,6 +13,7 @@ def unfollowUsers(conf):
 	username = conf["username"]
 	localBotConf = botConf(conf);
 	coolDownMaxValues = loadCoolDownValues(conf);
+	
 	cl=conf["cl"]
 
 	### get my followers
@@ -47,12 +50,13 @@ def unfollowUsers(conf):
 			break;
 
 		### Unfollow just accounts followed by the scripts
-		if x.pk not in open(confdir+'followed.csv').read():
-			# print("[unfollowUser] "+x.username+" Not in followed.csv")
-			continue;
+		with open(os.path.join(confdir, 'followed.csv'), 'r') as f:
+			if x.pk not in f.read():
+				# print("[unfollowUser] "+x.username+" Not in followed.csv")
+				continue;
 
 		### Unfollow just accounts followed for at least 30d
-		with open(confdir+'followed.csv', 'rt') as f:
+		with open(os.path.join(confdir,'followed.csv'), 'rt') as f:
 			data = f.readlines()
 
 		for line in data:

@@ -1,0 +1,1317 @@
+<instagrapi.Client object at 0x7fb296eac550>
+##########################################################################
+########################                          ########################
+########################       Instabot.py        ########################
+########################  by Daniele Rugginenti   ########################
+########################                          ########################
+########################         v 0.0.2          ########################
+########################         2023/11          ########################
+########################                          ########################
+##########################################################################
+Clean 'downloads' dir ....Done
+{'USER': 'deskydoopms', 'MAX_EXEC': 3, 'cl': <instagrapi.Client object at 0x7fb296eac550>, 'basedwndir': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/downloads', 'baseconfdir': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf', 'username': 'deskydoopms', 'password': '12bellaBELLA!!', 'tags': 'hostels;hostel;reception;hotel;management;pms;hostal;hostales;hoteles;recepcion;volunteer;volontario;nomad;nomadlife;backpacking', 'cooldown_day': {'curr': 1699506000.0, 'follows': 1, 'likes': 2, 'unfollows': 0}, 'cooldown_hour': {'curr': 1699520400.0, 'follows': 1, 'likes': 1, 'unfollows': 0}, 'scripts_followers': 1, 'forced_words': '', 'messages': {'active': 1, 'texts': {'en': 'Hi Thanks for the follow! How are you?', 'es': 'Gracias por el follow! \nComo estás?', 'it': 'Piacere, \ngrazie per il follow!'}}, 'confdir': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms', 'conffile': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms/conf.json', 'loginfile': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms/login.json', 'cooldownfile': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms/cool_down_conf.json'}
+ >>>>>> Login <<<<<< 
+ Logged in.. saving settings
+ >>>>>> Begin <<<<<< 
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 489
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699506000.0
+ >>>> Today Likes: 2
+ >>> Today Follow: 1
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699520400.0
+ >>>>> Hour Likes: 1
+ >>>> Hour Follow: 1
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+****************************************** 
+********** Reset DAILY counters ********** 
+****************************************** 
+****************************************** 
+********** Reset HOUR counters *********** 
+****************************************** 
+****************************************** 
+#### Execution # 1
+[GetNewFollowers] Registering follower zoe.jordan00
+[unfollowUser] Download profile pictures for 489 followed-> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxoo
+[unfollowUser] can't unfollow: travel.hike.explore, following since days: 7
+[unfollowUser] can't unfollow: marinaloungehostel, following since days: 20
+[unfollowUser] can't unfollow: madhukarpagidi, following since days: 19
+[unfollowUser] can't unfollow: itsnudiejeaneyes, following since days: 20
+[unfollowUser] can't unfollow: beeliicious, following since days: 14
+[unfollowUser] can't unfollow: atelier.bucolique, following since days: 16
+[unfollowUser] can't unfollow: gayathri___rajan, following since days: 19
+[unfollowUser] can't unfollow: rox.onthemoon, following since days: 14
+[unfollowUser] can't unfollow: jnv_gwalior_1994, following since days: 10
+[unfollowUser] can't unfollow: jenhbomb, following since days: 19
+[unfollowUser] can't unfollow: nancyg_89, following since days: 14
+[unfollowUser] can't unfollow: aryan_lifestyle_2, following since days: 20
+[unfollowUser] can't unfollow: ac_nardogallipoli, following since days: 13
+[unfollowUser] can't unfollow: rich.alossi, following since days: 20
+[unfollowUser] can't unfollow: santorinihostalcartagena, following since days: 10
+[unfollowUser] can't unfollow: berlinergalgomarsch, following since days: 13
+[unfollowUser] can't unfollow: justflute.es, following since days: 19
+[unfollowUser] can't unfollow: the_caffeinerush, following since days: 14
+[unfollowUser] can't unfollow: v_rsha__, following since days: 19
+[unfollowUser] can't unfollow: valeria.rita.campa, following since days: 13
+[unfollowUser] can't unfollow: amigos20202022, following since days: 16
+[unfollowUser] can't unfollow: mipedacitodecielo.18, following since days: 10
+[unfollowUser] can't unfollow: petstravelpets, following since days: 14
+[unfollowUser] can't unfollow: alexxdarkoo, following since days: 14
+[unfollowUser] can't unfollow: casa_micuba, following since days: 16
+[unfollowUser] can't unfollow: g00dji, following since days: 20
+[unfollowUser] can't unfollow: hereweare.world, following since days: 14
+[unfollowUser] can't unfollow: hostelworld, following since days: 20
+[unfollowUser] can't unfollow: gopika_govind_fp, following since days: 14
+[unfollowUser] can't unfollow: ayurveda_baba_ji, following since days: 10
+[unfollowUser] can't unfollow: markus_ebeling_reisen_natur, following since days: 16
+[unfollowUser] can't unfollow: yenifercvega, following since days: 10
+[unfollowUser] can't unfollow: topgirona, following since days: 10
+[unfollowUser] can't unfollow: sanjivani_the_lifeline, following since days: 20
+[unfollowUser] can't unfollow: atillabarbarossa, following since days: 10
+[unfollowUser] can't unfollow: montanadarby, following since days: 14
+[unfollowUser] can't unfollow: missclairebenjamin, following since days: 20
+[unfollowUser] can't unfollow: juliecretinoff, following since days: 20
+[unfollowUser] can't unfollow: julionoguerad, following since days: 19
+[unfollowUser] can't unfollow: portugalglory, following since days: 20
+[unfollowUser] can't unfollow: soleadostudio, following since days: 20
+[unfollowUser] can't unfollow: transfor_mem, following since days: 20
+[unfollowUser] can't unfollow: mountain.trekking, following since days: 20
+[unfollowUser] can't unfollow: cassidy.hornberger, following since days: 14
+[unfollowUser] can't unfollow: business_gurukull, following since days: 10
+[unfollowUser] can't unfollow: goodmornings.life, following since days: 20
+[unfollowUser] can't unfollow: savingcarsonshelterdogs, following since days: 19
+[unfollowUser] can't unfollow: classyncaptivating, following since days: 10
+Getting 31 medias for tag volunteer
+[getHashtag] Downloading 31 thumbs -> xoxxooxxoxoooxooooxoxoxx
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3230496803460083115_30119662169, mediaType: 1, next
+
+[getHashtag] >>> User idnvolunteer
+[getHashtag] + mediaId: 3232659711484458982_35612994248, mediaType: 8, Random: 11.483714528805724
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3214910694374007087_30119662169, mediaType: 1, next
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3222139170906314709_30119662169, mediaType: 1, next
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3231367400629015961_30119662169, mediaType: 1, Random: 4.549807461027978
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3221831234450733271_30119662169, mediaType: 8, Random: 12.040534820592205
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3227544009683932045_30119662169, mediaType: 1, next
+
+[getHashtag] >>> User amberheardsworkcredits
+[getHashtag] + mediaId: 3218501381378656314_53974373683, mediaType: 8, next
+
+[getHashtag] >>> User feuerwehr_starnberg
+[getHashtag] + mediaId: 3221484854431555216_4367431725, mediaType: 2, Random: 2.2870451380338004
+[downloadMedia] Downloading media 3221484854431555216
+[likeMedia] Liking media 3221484854431555216
+[followUser] feuerwehr_starnberg Got User infos
+[followUser] feuerwehr_starnberg Download profile picture -> x
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3225685978295755948_30119662169, mediaType: 8, next
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3232680926316455432_30119662169, mediaType: 1, Random: 4.757488892314158
+
+[getHashtag] >>> User idnvolunteer
+[getHashtag] + mediaId: 3231930208462190258_35612994248, mediaType: 8, Random: 9.278438547396458
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3221005770506682377_30119662169, mediaType: 1, Random: 2.160303196856255
+[downloadMedia] Downloading media 3221005770506682377
+[likeMedia] Liking media 3221005770506682377
+[followUser] Following user
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3218106757207765290_30119662169, mediaType: 8, next
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3222057058405261527_30119662169, mediaType: 8, Random: 2.5976641151229733
+[downloadMedia] Downloading media 3222057058405261527
+[likeMedia] Liking media 3222057058405261527
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3232277521846554737_30119662169, mediaType: 1, Random: 4.747853267967892
+
+[getHashtag] >>> User anakvolunteer
+[getHashtag] + mediaId: 3221924030017837853_57003060096, mediaType: 8, Random: 4.167119127881703
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3231892713916507837_30119662169, mediaType: 8, Random: 13.963691526176873
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3220296390288892839_30119662169, mediaType: 8, next
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3232088754545443727_30119662169, mediaType: 1, Random: 2.997957697255662
+[downloadMedia] Downloading media 3232088754545443727
+[likeMedia] Liking media 3232088754545443727
+[followMediaLikers] 3232088754545443727 Get media likes 
+[followMediaLikers] Following user evenisme.id (in media likes)
+[followUser] Following user
+[followMediaLikers] Following user fahriansyahilham (in media likes)
+[followUser] Following user
+[followMediaLikers] 3232088754545443727 End media likes 
+
+[getHashtag] >>> User cwsindia
+[getHashtag] + mediaId: 3220484469417470599_8405407632, mediaType: 8, next
+
+[getHashtag] >>> User infovolunteers
+[getHashtag] + mediaId: 3232840141236370681_47064637576, mediaType: 8, Random: 14.429510846274336
+
+[getHashtag] >>> User frigate_shtandart
+[getHashtag] + mediaId: 3220560050664628978_593984164, mediaType: 2, next
+
+[getHashtag] >>> User indovolunteers
+[getHashtag] + mediaId: 3225787029363525887_30119662169, mediaType: 1, next
+[getHashtag] REFREEEEEEEEEEEEEEEEEEEEEESH 
+Getting 32 medias for tag hotel
+[getHashtag] Downloading 32 thumbs -> ooxooooxxxxoxoxoxoxoxoooxxo
+
+[getHashtag] >>> User szwendacz_uliczny
+[getHashtag] + mediaId: 3231726429292490376_8606800571, mediaType: 1, Random: 2.1706782185942397
+[downloadMedia] Downloading media 3231726429292490376
+[likeMedia] Liking media 3231726429292490376
+[followUser] Following user
+
+[getHashtag] >>> User dream_hotels_jp
+[getHashtag] + mediaId: 3232154528471965829_49329082003, mediaType: 8, Random: 4.821117536644196
+
+[getHashtag] >>> User belajarbali
+[getHashtag] + mediaId: 3229337202152392811_46692121928, mediaType: 2, next
+
+[getHashtag] >>> User studio_hex_bs
+[getHashtag] + mediaId: 3231203552977639307_3269496708, mediaType: 1, Random: 8.364284092501826
+
+[getHashtag] >>> User theb1m
+[getHashtag] + mediaId: 3231752925599601410_225795725, mediaType: 8, Random: 3.5219825520292054
+[downloadMedia] Downloading media 3231752925599601410
+
+[getHashtag] >>> User macchan358
+[getHashtag] + mediaId: 3232164559032976030_2236469192, mediaType: 2, Random: 4.033585812323752
+
+[getHashtag] >>> User komiharu_official
+[getHashtag] + mediaId: 3231461292355871400_3225337834, mediaType: 1, Random: 3.1289714879136583
+[downloadMedia] Downloading media 3231461292355871400
+[likeMedia] Liking media 3231461292355871400
+[followUser] komiharu_official Got User infos
+[followUser] komiharu_official Download profile picture -> x
+
+[getHashtag] >>> User cabinplaces
+[getHashtag] + mediaId: 3229678163885712558_44085593701, mediaType: 2, next
+
+[getHashtag] >>> User lizzyperera
+[getHashtag] + mediaId: 3230773410676246846_6637322769, mediaType: 8, next
+
+[getHashtag] >>> User classyncaptivating
+[getHashtag] + mediaId: 3230876635971797221_54078978616, mediaType: 1, next
+
+[getHashtag] >>> User amir_mehdi_shoja
+[getHashtag] + mediaId: 3230237610637095540_1574365241, mediaType: 1, next
+
+[getHashtag] >>> User flashback_billkaulitz
+[getHashtag] + mediaId: 3229349216297998461_47457106094, mediaType: 1, Random: 9.15475952914263
+
+[getHashtag] >>> User shevchenkon135
+[getHashtag] + mediaId: 3230648174597657732_3712344361, mediaType: 2, next
+
+[getHashtag] >>> User pacodylan_
+[getHashtag] + mediaId: 3232251411307594931_1160775617, mediaType: 8, Random: 3.532778449087841
+[downloadMedia] Downloading media 3232251411307594931
+
+[getHashtag] >>> User idreamhouse
+[getHashtag] + mediaId: 3229339939421336491_4123333582, mediaType: 8, next
+
+[getHashtag] >>> User vouge_official
+[getHashtag] + mediaId: 3230815054025726126_24615891, mediaType: 2, Random: 6.6934221872915955
+
+[getHashtag] >>> User lil.peep_15.17
+[getHashtag] + mediaId: 3229568281374339217_55168244767, mediaType: 8, next
+
+[getHashtag] >>> User marie_soda_
+[getHashtag] + mediaId: 3232195412952048058_4185481082, mediaType: 2, Random: 13.429501738706165
+
+[getHashtag] >>> User vacations
+[getHashtag] + mediaId: 3230143504407088981_1396139505, mediaType: 8, next
+
+[getHashtag] >>> User luckyxleo
+[getHashtag] + mediaId: 3231666241625259803_10681326193, mediaType: 8, Random: 14.398579039176628
+
+[getHashtag] >>> User leparisdalexis
+[getHashtag] + mediaId: 3230182873788060654_5693071, mediaType: 2, next
+
+[getHashtag] >>> User cindystory__
+[getHashtag] + mediaId: 3232165948218546628_12070948322, mediaType: 8, Random: 11.442938508952219
+
+[getHashtag] >>> User facts
+[getHashtag] + mediaId: 3232559184350694351_1956471380, mediaType: 1, Random: 1.2707827887618124
+[downloadMedia] Downloading media 3232559184350694351
+[likeMedia] Liking media 3232559184350694351
+[followUser] Following user
+[getHashtag] facts Getting user medias 
+[getHashtag] facts Downloading thumbnails user medias ooooooooo
+
+[getHashtag] >>> User hotelcrillonlebrave
+[getHashtag] + mediaId: 3230245669036900793_355535485, mediaType: 8, Random: 1.2401030707993805
+[downloadMedia] Downloading media 3230245669036900793
+[likeMedia] Liking media 3230245669036900793
+[followUser] Following user
+[followMediaLikers] 3230245669036900793 Get media likes 
+[followMediaLikers] Following user carladegryse (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] Following user the_travelling_alis (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] 3230245669036900793 End media likes 
+[getHashtag] hotelcrillonlebrave Getting user medias 
+[getHashtag] hotelcrillonlebrave Downloading thumbnails user medias ooooooooo
+[getHashtag] hotelcrillonlebrave Downloading user media 3230759038400043530
+[downloadMedia] Downloading media 3230759038400043530
+[getHashtag] hotelcrillonlebrave Liking user media 3230759038400043530
+[likeMedia] Liking media 3230759038400043530
+
+[getHashtag] >>> User beautifulangel8989
+[getHashtag] + mediaId: 3229725794383953338_371074186, mediaType: 1, next
+
+[getHashtag] >>> User atillabarbarossa
+[getHashtag] + mediaId: 3230977876109593568_6050357, mediaType: 2, next
+
+[getHashtag] >>> User welikecotedazur
+[getHashtag] + mediaId: 3232246648799490412_38820812427, mediaType: 2, Random: 9.869997084436605
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 489
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699592400.0
+ >>>> Today Likes: 9
+ >>> Today Follow: 6
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699632000.0
+ >>>>> Hour Likes: 9
+ >>>> Hour Follow: 6
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+#### End Execution # 1
+Sleeping 2194 seconds
+****************************************** 
+****************************************** 
+#### Execution # 2
+[unfollowUser] Download profile pictures for 494 followed-> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[unfollowUser] can't unfollow: travel.hike.explore, following since days: 7
+[unfollowUser] can't unfollow: marinaloungehostel, following since days: 21
+[unfollowUser] can't unfollow: madhukarpagidi, following since days: 19
+[unfollowUser] can't unfollow: itsnudiejeaneyes, following since days: 21
+[unfollowUser] can't unfollow: beeliicious, following since days: 14
+[unfollowUser] can't unfollow: atelier.bucolique, following since days: 16
+[unfollowUser] can't unfollow: gayathri___rajan, following since days: 19
+[unfollowUser] can't unfollow: rox.onthemoon, following since days: 14
+[unfollowUser] can't unfollow: jnv_gwalior_1994, following since days: 10
+[unfollowUser] can't unfollow: jenhbomb, following since days: 19
+[unfollowUser] can't unfollow: nancyg_89, following since days: 14
+[unfollowUser] can't unfollow: aryan_lifestyle_2, following since days: 21
+[unfollowUser] can't unfollow: ac_nardogallipoli, following since days: 14
+[unfollowUser] can't unfollow: rich.alossi, following since days: 20
+[unfollowUser] can't unfollow: santorinihostalcartagena, following since days: 10
+[unfollowUser] can't unfollow: berlinergalgomarsch, following since days: 14
+[unfollowUser] can't unfollow: justflute.es, following since days: 19
+[unfollowUser] can't unfollow: the_caffeinerush, following since days: 14
+[unfollowUser] can't unfollow: v_rsha__, following since days: 19
+[unfollowUser] can't unfollow: valeria.rita.campa, following since days: 14
+[unfollowUser] can't unfollow: amigos20202022, following since days: 16
+[unfollowUser] can't unfollow: mipedacitodecielo.18, following since days: 10
+[unfollowUser] can't unfollow: petstravelpets, following since days: 14
+[unfollowUser] can't unfollow: alexxdarkoo, following since days: 14
+[unfollowUser] can't unfollow: casa_micuba, following since days: 16
+[unfollowUser] can't unfollow: g00dji, following since days: 20
+[unfollowUser] can't unfollow: hereweare.world, following since days: 14
+[unfollowUser] can't unfollow: hostelworld, following since days: 21
+[unfollowUser] can't unfollow: gopika_govind_fp, following since days: 14
+[unfollowUser] can't unfollow: ayurveda_baba_ji, following since days: 10
+[unfollowUser] can't unfollow: markus_ebeling_reisen_natur, following since days: 16
+[unfollowUser] can't unfollow: yenifercvega, following since days: 10
+[unfollowUser] can't unfollow: topgirona, following since days: 10
+[unfollowUser] can't unfollow: sanjivani_the_lifeline, following since days: 21
+[unfollowUser] can't unfollow: atillabarbarossa, following since days: 10
+[unfollowUser] can't unfollow: montanadarby, following since days: 14
+[unfollowUser] can't unfollow: missclairebenjamin, following since days: 20
+[unfollowUser] can't unfollow: juliecretinoff, following since days: 20
+[unfollowUser] can't unfollow: julionoguerad, following since days: 19
+[unfollowUser] can't unfollow: portugalglory, following since days: 20
+[unfollowUser] can't unfollow: soleadostudio, following since days: 20
+[unfollowUser] can't unfollow: transfor_mem, following since days: 20
+[unfollowUser] can't unfollow: mountain.trekking, following since days: 21
+[unfollowUser] can't unfollow: cassidy.hornberger, following since days: 14
+[unfollowUser] can't unfollow: business_gurukull, following since days: 10
+[unfollowUser] can't unfollow: goodmornings.life, following since days: 20
+[unfollowUser] can't unfollow: savingcarsonshelterdogs, following since days: 19
+[unfollowUser] can't unfollow: classyncaptivating, following since days: 10
+[unfollowUser] can't unfollow: indovolunteers, following since days: 0
+[unfollowUser] can't unfollow: facts, following since days: 0
+[unfollowUser] can't unfollow: hotelcrillonlebrave, following since days: 0
+[unfollowUser] can't unfollow: evenisme.id, following since days: 0
+[unfollowUser] can't unfollow: szwendacz_uliczny, following since days: 0
+Getting 30 medias for tag nomad
+[getHashtag] Downloading 30 thumbs -> xoooxxxxxxoxoxxoxxxxooxx
+
+[getHashtag] >>> User jacob.carpet
+[getHashtag] + mediaId: 3220745181094800173_9901945467, mediaType: 2, next
+
+[getHashtag] >>> User travelswithchelsea
+[getHashtag] + mediaId: 3221174445752199069_146301289, mediaType: 1, Random: 6.019896645342742
+
+[getHashtag] >>> User weed_delica
+[getHashtag] + mediaId: 3232825049891175678_59705202702, mediaType: 8, Random: 11.410117567253998
+
+[getHashtag] >>> User macmike1000
+[getHashtag] + mediaId: 3230232596436897932_2752943, mediaType: 8, Random: 11.465903638736435
+
+[getHashtag] >>> User macmike1000
+[getHashtag] + mediaId: 3229767356699197188_2752943, mediaType: 8, next
+
+[getHashtag] >>> User bahmanmardanloo
+[getHashtag] + mediaId: 3230774732023107072_2380941296, mediaType: 1, next
+
+[getHashtag] >>> User vanessadventures_
+[getHashtag] + mediaId: 3208602911054334972_9232669191, mediaType: 1, next
+
+[getHashtag] >>> User macmike1000
+[getHashtag] + mediaId: 3230966599771176887_2752943, mediaType: 8, next
+
+[getHashtag] >>> User california_nomads
+[getHashtag] + mediaId: 3218822157580545598_27777666416, mediaType: 1, next
+
+[getHashtag] >>> User macmike1000
+[getHashtag] + mediaId: 3227299371070604548_2752943, mediaType: 8, next
+
+[getHashtag] >>> User back.in.time.ai
+[getHashtag] + mediaId: 3231469356397402870_57336540290, mediaType: 8, Random: 3.8780047041386547
+[downloadMedia] Downloading media 3231469356397402870
+
+[getHashtag] >>> User jordlg
+[getHashtag] + mediaId: 3228011949952597654_640826437, mediaType: 8, next
+
+[getHashtag] >>> User california_nomads
+[getHashtag] + mediaId: 3220847327094555447_27777666416, mediaType: 2, Random: 11.268687888583031
+
+[getHashtag] >>> User rashelle_stetman
+[getHashtag] + mediaId: 3214276672181766051_25382143, mediaType: 1, next
+
+[getHashtag] >>> User vacaywithmj
+[getHashtag] + mediaId: 3215283539901899700_20055275, mediaType: 8, next
+
+[getHashtag] >>> User sailorekb
+[getHashtag] + mediaId: 3232516900045738078_14948303222, mediaType: 8, Random: 6.398166507995216
+
+[getHashtag] >>> User sebastianstonum
+[getHashtag] + mediaId: 3213584045807536673_25740618, mediaType: 8, next
+
+[getHashtag] >>> User california_nomads
+[getHashtag] + mediaId: 3212008253209691465_27777666416, mediaType: 1, next
+
+[getHashtag] >>> User smashpop
+[getHashtag] + mediaId: 3216727063052825458_9715, mediaType: 2, next
+
+[getHashtag] >>> User uxbrainy
+[getHashtag] + mediaId: 3213192233813583242_9298987867, mediaType: 8, next
+
+[getHashtag] >>> User bound.for.nowhere
+[getHashtag] + mediaId: 3218740469299062822_39461119, mediaType: 8, Random: 8.546861755714659
+
+[getHashtag] >>> User jacob.carpet
+[getHashtag] + mediaId: 3221955382905139958_9901945467, mediaType: 8, Random: 8.29600306505551
+
+[getHashtag] >>> User ui_ux_designerr
+[getHashtag] + mediaId: 3228442406934370439_55584703562, mediaType: 1, next
+
+[getHashtag] >>> User macmike1000
+[getHashtag] + mediaId: 3225137255034763778_2752943, mediaType: 8, next
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 489
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699592400.0
+ >>>> Today Likes: 9
+ >>> Today Follow: 6
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699632000.0
+ >>>>> Hour Likes: 9
+ >>>> Hour Follow: 6
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+#### End Execution # 2
+Sleeping 54 seconds
+****************************************** 
+****************************************** 
+#### Execution # 3
+[unfollowUser] Download profile pictures for 494 followed-> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[unfollowUser] can't unfollow: travel.hike.explore, following since days: 7
+[unfollowUser] can't unfollow: marinaloungehostel, following since days: 21
+[unfollowUser] can't unfollow: madhukarpagidi, following since days: 19
+[unfollowUser] can't unfollow: itsnudiejeaneyes, following since days: 21
+[unfollowUser] can't unfollow: beeliicious, following since days: 14
+[unfollowUser] can't unfollow: atelier.bucolique, following since days: 16
+[unfollowUser] can't unfollow: gayathri___rajan, following since days: 19
+[unfollowUser] can't unfollow: rox.onthemoon, following since days: 14
+[unfollowUser] can't unfollow: jnv_gwalior_1994, following since days: 10
+[unfollowUser] can't unfollow: jenhbomb, following since days: 19
+[unfollowUser] can't unfollow: nancyg_89, following since days: 14
+[unfollowUser] can't unfollow: aryan_lifestyle_2, following since days: 21
+[unfollowUser] can't unfollow: ac_nardogallipoli, following since days: 14
+[unfollowUser] can't unfollow: rich.alossi, following since days: 20
+[unfollowUser] can't unfollow: santorinihostalcartagena, following since days: 10
+[unfollowUser] can't unfollow: berlinergalgomarsch, following since days: 14
+[unfollowUser] can't unfollow: justflute.es, following since days: 19
+[unfollowUser] can't unfollow: the_caffeinerush, following since days: 14
+[unfollowUser] can't unfollow: v_rsha__, following since days: 19
+[unfollowUser] can't unfollow: valeria.rita.campa, following since days: 14
+[unfollowUser] can't unfollow: amigos20202022, following since days: 16
+[unfollowUser] can't unfollow: mipedacitodecielo.18, following since days: 10
+[unfollowUser] can't unfollow: petstravelpets, following since days: 14
+[unfollowUser] can't unfollow: alexxdarkoo, following since days: 14
+[unfollowUser] can't unfollow: casa_micuba, following since days: 16
+[unfollowUser] can't unfollow: g00dji, following since days: 20
+[unfollowUser] can't unfollow: hereweare.world, following since days: 14
+[unfollowUser] can't unfollow: hostelworld, following since days: 21
+[unfollowUser] can't unfollow: gopika_govind_fp, following since days: 14
+[unfollowUser] can't unfollow: ayurveda_baba_ji, following since days: 10
+[unfollowUser] can't unfollow: markus_ebeling_reisen_natur, following since days: 16
+[unfollowUser] can't unfollow: yenifercvega, following since days: 10
+[unfollowUser] can't unfollow: topgirona, following since days: 10
+[unfollowUser] can't unfollow: sanjivani_the_lifeline, following since days: 21
+[unfollowUser] can't unfollow: atillabarbarossa, following since days: 10
+[unfollowUser] can't unfollow: montanadarby, following since days: 14
+[unfollowUser] can't unfollow: missclairebenjamin, following since days: 20
+[unfollowUser] can't unfollow: juliecretinoff, following since days: 20
+[unfollowUser] can't unfollow: julionoguerad, following since days: 19
+[unfollowUser] can't unfollow: portugalglory, following since days: 20
+[unfollowUser] can't unfollow: soleadostudio, following since days: 20
+[unfollowUser] can't unfollow: transfor_mem, following since days: 20
+[unfollowUser] can't unfollow: mountain.trekking, following since days: 21
+[unfollowUser] can't unfollow: cassidy.hornberger, following since days: 14
+[unfollowUser] can't unfollow: business_gurukull, following since days: 10
+[unfollowUser] can't unfollow: goodmornings.life, following since days: 20
+[unfollowUser] can't unfollow: savingcarsonshelterdogs, following since days: 19
+[unfollowUser] can't unfollow: classyncaptivating, following since days: 10
+[unfollowUser] can't unfollow: facts, following since days: 0
+[unfollowUser] can't unfollow: indovolunteers, following since days: 0
+[unfollowUser] can't unfollow: hotelcrillonlebrave, following since days: 0
+[unfollowUser] can't unfollow: evenisme.id, following since days: 0
+[unfollowUser] can't unfollow: szwendacz_uliczny, following since days: 0
+Getting 27 medias for tag recepcion
+[getHashtag] Downloading 27 thumbs -> oooxooxxoxxooxxxxoxoxxxx
+
+[getHashtag] >>> User kabbalah.info.es
+[getHashtag] + mediaId: 3232345850861268669_6086500324, mediaType: 2, Random: 12.18834918883076
+
+[getHashtag] >>> User mantelesycristalessm
+[getHashtag] + mediaId: 3231857765189917593_2355373373, mediaType: 8, Random: 0.8102794783014372
+[downloadMedia] Downloading media 3231857765189917593
+[likeMedia] Liking media 3231857765189917593
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] 3231857765189917593 Get media likes 
+[followMediaLikers] Following user angiepperez33 (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] Following user alixortega4 (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] Following user ileanacorreas (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] Following user deskydoopms (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] 3231857765189917593 End media likes 
+[getHashtag] mantelesycristalessm Getting user medias 
+[getHashtag] mantelesycristalessm Downloading thumbnails user medias ooooooooo
+[getHashtag] mantelesycristalessm Downloading user media 3231857765189917593
+[likeMedia] next
+[getHashtag] mantelesycristalessm Downloading user media 3218764925807201807
+[downloadMedia] Downloading media 3218764925807201807
+[getHashtag] mantelesycristalessm Liking user media 3218764925807201807
+[likeMedia] Liking media 3218764925807201807
+
+[getHashtag] >>> User fextri
+[getHashtag] + mediaId: 3232246374315848543_4535362491, mediaType: 2, Random: 9.243912204701523
+
+[getHashtag] >>> User hhsoluciones.ec
+[getHashtag] + mediaId: 3230251393524204630_59394318377, mediaType: 8, next
+
+[getHashtag] >>> User green_park_apartamenty
+[getHashtag] + mediaId: 3232510523411875173_58081565195, mediaType: 1, Random: 2.104696010587739
+[downloadMedia] Downloading media 3232510523411875173
+[likeMedia] Liking media 3232510523411875173
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+
+[getHashtag] >>> User carmarspa
+[getHashtag] + mediaId: 3232344350598227433_56519719946, mediaType: 8, Random: 2.244728304367842
+[downloadMedia] Downloading media 3232344350598227433
+[likeMedia] Liking media 3232344350598227433
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] 3232344350598227433 Get media likes 
+[followMediaLikers] Following user j.alonsomnhl (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+
+[getHashtag] >>> User holacom
+[getHashtag] + mediaId: 3211946118378346236_8950004, mediaType: 8, next
+
+[getHashtag] >>> User marsala_dresses
+[getHashtag] + mediaId: 2140411367985868020_1921102340, mediaType: 8, next
+
+[getHashtag] >>> User novoestereo_music
+[getHashtag] + mediaId: 3232521998230728434_62425602285, mediaType: 1, Random: 1.6049767661379888
+[downloadMedia] Downloading media 3232521998230728434
+[likeMedia] Liking media 3232521998230728434
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] 3232521998230728434 Get media likes 
+[followMediaLikers] Following user the_georgemichael306 (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] 3232521998230728434 End media likes 
+[getHashtag] novoestereo_music Getting user medias 
+[getHashtag] novoestereo_music Downloading thumbnails user medias oooooo
+[getHashtag] novoestereo_music Downloading user media 3232521998230728434
+[likeMedia] next
+[getHashtag] novoestereo_music Liking user media 3232521998230728434
+[likeMedia] next
+[getHashtag] novoestereo_music Downloading user media 3208063725096152522
+[downloadMedia] Downloading media 3208063725096152522
+
+[getHashtag] >>> User paolavelazquez_studio
+[getHashtag] + mediaId: 3109011405410613001_232217655, mediaType: 8, next
+
+[getHashtag] >>> User ninoysuorquesta_bqto
+[getHashtag] + mediaId: 3226534834431601889_59786529418, mediaType: 2, next
+
+[getHashtag] >>> User valeria_chirinos7
+[getHashtag] + mediaId: 3230952147125089130_56923291257, mediaType: 2, Random: 5.907154211052948
+
+[getHashtag] >>> User schinca_caricaturas
+[getHashtag] + mediaId: 3232354734370410199_61420390565, mediaType: 1, Random: 3.0661196128350254
+[downloadMedia] Downloading media 3232354734370410199
+[likeMedia] Liking media 3232354734370410199
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+
+[getHashtag] >>> User justflute.es
+[getHashtag] + mediaId: 3227134820910988977_58618259152, mediaType: 2, next
+
+[getHashtag] >>> User chamoliendo_volley
+[getHashtag] + mediaId: 3129446842584706911_542911114, mediaType: 2, next
+
+[getHashtag] >>> User lorenabbadie
+[getHashtag] + mediaId: 2899624520277864376_6657706964, mediaType: 8, next
+
+[getHashtag] >>> User annie_fifa
+[getHashtag] + mediaId: 3090203306489015401_56805635526, mediaType: 2, next
+
+[getHashtag] >>> User pazoalmuzara
+[getHashtag] + mediaId: 3232284438708084089_50773543376, mediaType: 1, Random: 6.7880843288579085
+
+[getHashtag] >>> User eltallerdenino
+[getHashtag] + mediaId: 3162201837772359166_5800061661, mediaType: 2, next
+
+[getHashtag] >>> User centredenegocisgsp
+[getHashtag] + mediaId: 3232406559475136586_52682456476, mediaType: 1, Random: 8.922491251402393
+
+[getHashtag] >>> User maderux
+[getHashtag] + mediaId: 3209286435181994734_48789283186, mediaType: 2, next
+
+[getHashtag] >>> User ecoalimentos_cealco
+[getHashtag] + mediaId: 3226466178716704754_49421671215, mediaType: 2, next
+
+[getHashtag] >>> User lanzahostcanarias
+[getHashtag] + mediaId: 3230094505540239863_39989847244, mediaType: 1, next
+
+[getHashtag] >>> User mantelesycristalessm
+[getHashtag] + mediaId: 3229488898819957853_2355373373, mediaType: 2, next
+[getHashtag] REFREEEEEEEEEEEEEEEEEEEEEESH 
+Getting 28 medias for tag hostels
+[getHashtag] Downloading 28 thumbs -> xxxooxxoxoxoxxxooxoxoxooxxx
+
+[getHashtag] >>> User chiu_cooks08
+[getHashtag] + mediaId: 3229541438358887331_49714151414, mediaType: 8, next
+
+[getHashtag] >>> User fercarolei
+[getHashtag] + mediaId: 3128111969566209640_24075900, mediaType: 2, next
+
+[getHashtag] >>> User saradaga.kasepu_
+[getHashtag] + mediaId: 3089631024503020161_58756433590, mediaType: 2, next
+
+[getHashtag] >>> User penelhomes
+[getHashtag] + mediaId: 3232807292498945691_57296730715, mediaType: 2, Random: 2.0238009547294844
+[downloadMedia] Downloading media 3232807292498945691
+[likeMedia] Max cooldown reached, can't like 
+[likeMedia] Day: False
+[likeMedia] Hour: True
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+
+[getHashtag] >>> User aprohot_guaruja
+[getHashtag] + mediaId: 3232535179025162400_53522742128, mediaType: 1, Random: 12.628007754603553
+
+[getHashtag] >>> User harrietandlife
+[getHashtag] + mediaId: 3033645118872642930_175243205, mediaType: 2, next
+
+[getHashtag] >>> User hostelworld
+[getHashtag] + mediaId: 3230143276892255001_14925969, mediaType: 2, next
+
+[getHashtag] >>> User shrikrishnakunjhostels
+[getHashtag] + mediaId: 3232699693987308325_28715247512, mediaType: 2, Random: 9.566067044953778
+
+[getHashtag] >>> User kustleden
+[getHashtag] + mediaId: 3226506161531628439_10921941037, mediaType: 1, next
+
+[getHashtag] >>> User surfcityhostel
+[getHashtag] + mediaId: 3232490748629227093_1722342692, mediaType: 2, Random: 6.068936457222858
+
+[getHashtag] >>> User travel.hike.explore
+[getHashtag] + mediaId: 3231441132599968438_1388570035, mediaType: 1, next
+
+[getHashtag] >>> User mellow.varkala
+[getHashtag] + mediaId: 3229067657622470288_61611908148, mediaType: 1, Random: 3.8485762321788703
+[downloadMedia] Downloading media 3229067657622470288
+
+[getHashtag] >>> User miss_rizzo
+[getHashtag] + mediaId: 3125017321268857333_15534368, mediaType: 2, next
+
+[getHashtag] >>> User chennaivlogger
+[getHashtag] + mediaId: 2967570071590451998_291964406, mediaType: 2, next
+
+[getHashtag] >>> User indiafinity
+[getHashtag] + mediaId: 3161951664547142872_3116575595, mediaType: 2, next
+
+[getHashtag] >>> User berkanahostel
+[getHashtag] + mediaId: 3232567430151732017_6915117571, mediaType: 2, Random: 13.008993011954464
+
+[getHashtag] >>> User _lunar_ladies
+[getHashtag] + mediaId: 3061915042070696775_58090917816, mediaType: 2, Random: 13.653685459843063
+
+[getHashtag] >>> User flylikebuttterfly
+[getHashtag] + mediaId: 2945340316971494577_208428528, mediaType: 1, next
+
+[getHashtag] >>> User nursyahbanii_
+[getHashtag] + mediaId: 3232168254898488876_8643255541, mediaType: 2, Random: 1.4614730385070689
+[downloadMedia] Downloading media 3232168254898488876
+[likeMedia] Max cooldown reached, can't like 
+[likeMedia] Day: False
+[likeMedia] Hour: True
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[getHashtag] nursyahbanii_ Getting user medias 
+[getHashtag] nursyahbanii_ Downloading thumbnails user medias ooooooo
+
+[getHashtag] >>> User hostelworld
+[getHashtag] + mediaId: 3204778683086721717_14925969, mediaType: 1, next
+
+[getHashtag] >>> User wanderinstasoul
+[getHashtag] + mediaId: 3232758520250360392_40552986, mediaType: 2, Random: 2.279956215521091
+[downloadMedia] Downloading media 3232758520250360392
+[likeMedia] Max cooldown reached, can't like 
+[likeMedia] Day: False
+[likeMedia] Hour: True
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+
+[getHashtag] >>> User sandeep.cjr
+[getHashtag] + mediaId: 3223955197588203496_57286713066, mediaType: 2, next
+
+[getHashtag] >>> User colombobeachhostel
+[getHashtag] + mediaId: 3232639160357845307_622734178, mediaType: 1, Random: 10.525997372251135
+
+[getHashtag] >>> User dalali_kigambonii
+[getHashtag] + mediaId: 3232872838992529407_47639324710, mediaType: 8, Random: 7.144135179188094
+
+[getHashtag] >>> User samanthacasolaro
+[getHashtag] + mediaId: 3195045114954817166_3228601964, mediaType: 2, next
+
+[getHashtag] >>> User sam_cric_1214
+[getHashtag] + mediaId: 3097146932930656579_47827993822, mediaType: 2, next
+
+[getHashtag] >>> User _.toddllerrs._
+[getHashtag] + mediaId: 3231947544929844388_61269370928, mediaType: 2, next
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 489
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699592400.0
+ >>>> Today Likes: 15
+ >>> Today Follow: 6
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699632000.0
+ >>>>> Hour Likes: 15
+ >>>> Hour Follow: 6
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+#### End Execution # 3
+#### FINISH 
+<instagrapi.Client object at 0x7f010dc2de90>
+##########################################################################
+########################                          ########################
+########################       Instabot.py        ########################
+########################  by Daniele Rugginenti   ########################
+########################                          ########################
+########################         v 0.0.2          ########################
+########################         2023/11          ########################
+########################                          ########################
+##########################################################################
+Clean 'downloads' dir ....Done
+{'USER': 'deskydoopms', 'MAX_EXEC': 3, 'cl': <instagrapi.Client object at 0x7f010dc2de90>, 'basedwndir': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/downloads', 'baseconfdir': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf', 'username': 'deskydoopms', 'password': '12bellaBELLA!!', 'tags': 'hostels;hostel;reception;hotel;management;pms;hostal;hostales;hoteles;recepcion;volunteer;volontario;nomad;nomadlife;backpacking', 'cooldown_day': {'curr': 1699592400.0, 'follows': 6, 'likes': 15, 'unfollows': 0}, 'cooldown_hour': {'curr': 1699632000.0, 'follows': 6, 'likes': 15, 'unfollows': 0}, 'scripts_followers': 1, 'forced_words': '', 'messages': {'active': 1, 'texts': {'en': 'Hi Thanks for the follow! How are you?', 'es': 'Gracias por el follow! \nComo estás?', 'it': 'Piacere, \ngrazie per il follow!'}}, 'confdir': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms', 'conffile': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms/conf.json', 'loginfile': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms/login.json', 'cooldownfile': '/home/dany/Dropbox/Projects/instagrapi-human-simulation/conf/deskydoopms/cool_down_conf.json'}
+ >>>>>> Login <<<<<< 
+ Logged in.. saving settings
+ >>>>>> Begin <<<<<< 
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 494
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699592400.0
+ >>>> Today Likes: 15
+ >>> Today Follow: 6
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699632000.0
+ >>>>> Hour Likes: 15
+ >>>> Hour Follow: 6
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+****************************************** 
+********** Reset DAILY counters ********** 
+****************************************** 
+****************************************** 
+********** Reset HOUR counters *********** 
+****************************************** 
+****************************************** 
+#### Execution # 1
+Getting 30 medias for tag backpacking
+[getHashtag] Downloading 30 thumbs -> oxooxooxxxooxxoooxooxxxo
+
+[getHashtag] >>> User psy2378
+[getHashtag] + mediaId: 3232831000954079733_4064316561, mediaType: 8, Random: 8.270040191494523
+
+[getHashtag] >>> User gomjini_ksj
+[getHashtag] + mediaId: 3220485803264109754_46927706, mediaType: 8, next
+
+[getHashtag] >>> User raya_and_siya
+[getHashtag] + mediaId: 3233324361607573023_53744635, mediaType: 1, Random: 5.393639068184009
+
+[getHashtag] >>> User raya_and_siya
+[getHashtag] + mediaId: 3226795701375465457_53744635, mediaType: 1, Random: 2.9617980472598493
+[downloadMedia] Downloading media 3226795701375465457
+[likeMedia] Liking media 3226795701375465457
+[followUser] Following user
+
+[getHashtag] >>> User psy2378
+[getHashtag] + mediaId: 3224134210318952834_4064316561, mediaType: 8, next
+
+[getHashtag] >>> User dracul3733a
+[getHashtag] + mediaId: 3229792449064769205_35611308242, mediaType: 1, Random: 2.5566479147183885
+[downloadMedia] Downloading media 3229792449064769205
+[likeMedia] Liking media 3229792449064769205
+[followUser] dracul3733a Got User infos
+[followUser] dracul3733a Download profile picture -> x
+
+[getHashtag] >>> User danimarielister
+[getHashtag] + mediaId: 3223151345691246426_199873591, mediaType: 2, Random: 11.131325548728249
+
+[getHashtag] >>> User dev_skehan
+[getHashtag] + mediaId: 3220743658185648711_173785846, mediaType: 2, next
+
+[getHashtag] >>> User psy2378
+[getHashtag] + mediaId: 3230658686112202795_4064316561, mediaType: 8, next
+
+[getHashtag] >>> User raya_and_siya
+[getHashtag] + mediaId: 3227488143510775561_53744635, mediaType: 1, next
+
+[getHashtag] >>> User montanadarby
+[getHashtag] + mediaId: 3226621900481815186_41398685, mediaType: 2, Random: 8.327444318424222
+
+[getHashtag] >>> User raya_and_siya
+[getHashtag] + mediaId: 3229009027174091363_53744635, mediaType: 1, Random: 11.501448732286368
+
+[getHashtag] >>> User drakenscapes
+[getHashtag] + mediaId: 3229933186283217019_53774522850, mediaType: 1, next
+
+[getHashtag] >>> User gomjini_ksj
+[getHashtag] + mediaId: 3225519386060090088_46927706, mediaType: 8, next
+
+[getHashtag] >>> User eyeam_eye
+[getHashtag] + mediaId: 3222002265284218711_1910273970, mediaType: 2, Random: 1.0708013320757455
+[downloadMedia] Downloading media 3222002265284218711
+[likeMedia] Liking media 3222002265284218711
+[followUser] Following user
+[getHashtag] eyeam_eye Getting user medias 
+[getHashtag] eyeam_eye Downloading thumbnails user medias ooooooooo
+
+[getHashtag] >>> User bere_pick
+[getHashtag] + mediaId: 3230453720340611486_52702221520, mediaType: 8, Random: 5.117157002781237
+
+[getHashtag] >>> User wandering_jessica_
+[getHashtag] + mediaId: 3221446960614391753_5418525703, mediaType: 2, Random: 6.6431615150240315
+
+[getHashtag] >>> User ticket.to.anywhere
+[getHashtag] + mediaId: 3230284906347230807_844100249, mediaType: 1, next
+
+[getHashtag] >>> User dracul3733a
+[getHashtag] + mediaId: 3230753702499203886_35611308242, mediaType: 1, Random: 12.60170454753699
+
+[getHashtag] >>> User hikergraphy
+[getHashtag] + mediaId: 3232577865069289470_6202328, mediaType: 8, Random: 8.95936899734845
+
+[getHashtag] >>> User montanadarby
+[getHashtag] + mediaId: 3230853901451696084_41398685, mediaType: 1, next
+
+[getHashtag] >>> User bedrocksandals
+[getHashtag] + mediaId: 3217146815827542399_206341381, mediaType: 8, next
+
+[getHashtag] >>> User errincasa
+[getHashtag] + mediaId: 3224432959518239095_178336231, mediaType: 8, next
+
+[getHashtag] >>> User tinacurrin
+[getHashtag] + mediaId: 3225130345421599257_11770757, mediaType: 8, Random: 9.111513990461729
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 494
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699678800.0
+ >>>> Today Likes: 3
+ >>> Today Follow: 2
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699718400.0
+ >>>>> Hour Likes: 3
+ >>>> Hour Follow: 2
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+#### End Execution # 1
+Sleeping 54 seconds
+****************************************** 
+****************************************** 
+#### Execution # 2
+Getting 26 medias for tag hostels
+[getHashtag] Downloading 26 thumbs -> oxxxxxxoxxxxxxxoooxxxxoo
+
+[getHashtag] >>> User lindsey_furr
+[getHashtag] + mediaId: 3233054542424056722_19068704, mediaType: 2, Random: 5.255272756620346
+
+[getHashtag] >>> User miss_rizzo
+[getHashtag] + mediaId: 3125017321268857333_15534368, mediaType: 2, next
+
+[getHashtag] >>> User chennaivlogger
+[getHashtag] + mediaId: 2967570071590451998_291964406, mediaType: 2, next
+
+[getHashtag] >>> User portugalglory
+[getHashtag] + mediaId: 3077765231686543636_49121000897, mediaType: 1, next
+
+[getHashtag] >>> User hostelworld
+[getHashtag] + mediaId: 3204778683086721717_14925969, mediaType: 1, next
+
+[getHashtag] >>> User hostelworld
+[getHashtag] + mediaId: 3230143276892255001_14925969, mediaType: 2, next
+
+[getHashtag] >>> User flylikebuttterfly
+[getHashtag] + mediaId: 2945340316971494577_208428528, mediaType: 1, next
+
+[getHashtag] >>> User chippu_photography
+[getHashtag] + mediaId: 3233024498551027875_56140039422, mediaType: 2, Random: 2.606612809761415
+[downloadMedia] Downloading media 3233024498551027875
+[likeMedia] Liking media 3233024498551027875
+[followUser] Following user
+
+[getHashtag] >>> User saradaga.kasepu_
+[getHashtag] + mediaId: 3089631024503020161_58756433590, mediaType: 2, next
+
+[getHashtag] >>> User cringe_2k26
+[getHashtag] + mediaId: 2973650532831110875_56432254787, mediaType: 2, next
+
+[getHashtag] >>> User indiafinity
+[getHashtag] + mediaId: 3161951664547142872_3116575595, mediaType: 2, next
+
+[getHashtag] >>> User berkanahostel
+[getHashtag] + mediaId: 3232567430151732017_6915117571, mediaType: 2, next
+
+[getHashtag] >>> User hostelworld
+[getHashtag] + mediaId: 3209824031158200324_14925969, mediaType: 2, next
+
+[getHashtag] >>> User _akshaya__chandran_
+[getHashtag] + mediaId: 3222868625681911988_18048593582, mediaType: 2, next
+
+[getHashtag] >>> User sam_cric_1214
+[getHashtag] + mediaId: 3097146932930656579_47827993822, mediaType: 2, next
+
+[getHashtag] >>> User bergkroon
+[getHashtag] + mediaId: 3233001011855680491_61334795559, mediaType: 1, Random: 8.318959017289718
+
+[getHashtag] >>> User koko_hermawan_motret
+[getHashtag] + mediaId: 3233441174818640305_21456734260, mediaType: 1, Random: 12.104282811426861
+
+[getHashtag] >>> User aayat_parveen_90_
+[getHashtag] + mediaId: 3233580828885667105_57307042370, mediaType: 2, Random: 1.2551176041030527
+[downloadMedia] Downloading media 3233580828885667105
+[likeMedia] Liking media 3233580828885667105
+[followUser] Following user
+[getHashtag] aayat_parveen_90_ Getting user medias 
+[getHashtag] aayat_parveen_90_ Downloading thumbnails user medias ooooooooo
+[getHashtag] aayat_parveen_90_ Downloading user media 3233636478600784517
+[downloadMedia] Downloading media 3233636478600784517
+[getHashtag] aayat_parveen_90_ Downloading user media 3233634807950655452
+[downloadMedia] Downloading media 3233634807950655452
+[getHashtag] aayat_parveen_90_ Downloading user media 3233581662184681649
+[downloadMedia] Downloading media 3233581662184681649
+[getHashtag] aayat_parveen_90_ Liking user media 3233581662184681649
+[likeMedia] Liking media 3233581662184681649
+[getHashtag] aayat_parveen_90_ Downloading user media 3233580828885667105
+[likeMedia] next
+
+[getHashtag] >>> User samanthacasolaro
+[getHashtag] + mediaId: 3195045114954817166_3228601964, mediaType: 2, next
+
+[getHashtag] >>> User kustleden
+[getHashtag] + mediaId: 3226506161531628439_10921941037, mediaType: 1, next
+
+[getHashtag] >>> User _.toddllerrs._
+[getHashtag] + mediaId: 3231947544929844388_61269370928, mediaType: 2, next
+
+[getHashtag] >>> User _lunar_ladies
+[getHashtag] + mediaId: 3061915042070696775_58090917816, mediaType: 2, next
+
+[getHashtag] >>> User visitbacalar
+[getHashtag] + mediaId: 3232357864210227863_6186596137, mediaType: 2, Random: 12.079179653527383
+
+[getHashtag] >>> User thesolotravelqueenofficial
+[getHashtag] + mediaId: 3233340883525386116_9197913638, mediaType: 2, Random: 11.057199241739681
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 494
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699678800.0
+ >>>> Today Likes: 6
+ >>> Today Follow: 4
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699718400.0
+ >>>>> Hour Likes: 6
+ >>>> Hour Follow: 4
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+#### End Execution # 2
+Sleeping 29 seconds
+****************************************** 
+****************************************** 
+#### Execution # 3
+Getting 26 medias for tag hoteles
+[getHashtag] Downloading 26 thumbs -> oxxooooxxxxxxxooooooxxoo
+
+[getHashtag] >>> User veteconmanu
+[getHashtag] + mediaId: 3169980963552046909_198995242, mediaType: 2, Random: 9.652380344028728
+
+[getHashtag] >>> User veteconmanu
+[getHashtag] + mediaId: 3205523157208795834_198995242, mediaType: 2, next
+
+[getHashtag] >>> User raydeviaje
+[getHashtag] + mediaId: 3181155678524024706_55493266788, mediaType: 2, next
+
+[getHashtag] >>> User luxuriator
+[getHashtag] + mediaId: 3232383651631496948_51606134084, mediaType: 2, Random: 8.849219438303425
+
+[getHashtag] >>> User venevision
+[getHashtag] + mediaId: 3233274393060412313_36419473, mediaType: 1, Random: 9.728141494005408
+
+[getHashtag] >>> User win_travel_
+[getHashtag] + mediaId: 3233350016059409431_8584312100, mediaType: 2, Random: 7.850851953065536
+
+[getHashtag] >>> User bbventasrd
+[getHashtag] + mediaId: 3233015709746983413_54160673489, mediaType: 8, Random: 0.1368590379936674
+[downloadMedia] Downloading media 3233015709746983413
+[likeMedia] Liking media 3233015709746983413
+[followUser] bbventasrd Got User infos
+[followUser] bbventasrd Download profile picture -> x
+[followUser] Following user
+[getHashtag] bbventasrd Getting user medias 
+[getHashtag] bbventasrd Downloading thumbnails user medias ooooooooo
+[getHashtag] bbventasrd Downloading user media 3230850318476206449
+[downloadMedia] Downloading media 3230850318476206449
+[getHashtag] bbventasrd Liking user media 3230850318476206449
+[likeMedia] Liking media 3230850318476206449
+
+[getHashtag] >>> User danielvergel_
+[getHashtag] + mediaId: 3168587327182310196_18471042, mediaType: 2, next
+
+[getHashtag] >>> User abigailmaos
+[getHashtag] + mediaId: 3180375453414513356_6641930273, mediaType: 2, next
+
+[getHashtag] >>> User carlostorresrd
+[getHashtag] + mediaId: 3159134600973612383_26185808, mediaType: 2, next
+
+[getHashtag] >>> User japonalternativo
+[getHashtag] + mediaId: 3224824158551138220_8704122765, mediaType: 2, next
+
+[getHashtag] >>> User apocool_
+[getHashtag] + mediaId: 3181191371179324969_1553622643, mediaType: 2, next
+
+[getHashtag] >>> User camilauribe.col
+[getHashtag] + mediaId: 3156273938937478436_12320922002, mediaType: 2, next
+
+[getHashtag] >>> User filipa_travelfood
+[getHashtag] + mediaId: 3205666624903725220_5555521802, mediaType: 2, next
+
+[getHashtag] >>> User dimarcobinefar
+[getHashtag] + mediaId: 3232973614713292570_1288241587, mediaType: 1, Random: 6.771055564751963
+
+[getHashtag] >>> User bbventasrd
+[getHashtag] + mediaId: 3233380874703096801_54160673489, mediaType: 8, Random: 4.757175926258971
+
+[getHashtag] >>> User ktdra_vzla
+[getHashtag] + mediaId: 3233300357562065583_50310126233, mediaType: 1, Random: 4.130953700622426
+
+[getHashtag] >>> User reilumi
+[getHashtag] + mediaId: 3233043749734611828_47472540062, mediaType: 2, Random: 7.793754168315186
+
+[getHashtag] >>> User marclari_travel
+[getHashtag] + mediaId: 3233627549447268167_47288718356, mediaType: 8, Random: 12.496556906413034
+
+[getHashtag] >>> User hoalveoviedo
+[getHashtag] + mediaId: 3233101206573179529_57792304537, mediaType: 8, Random: 1.3143446438159578
+[downloadMedia] Downloading media 3233101206573179529
+[likeMedia] Liking media 3233101206573179529
+[followUser] Following user
+[followMediaLikers] 3233101206573179529 Get media likes 
+[followMediaLikers] Following user ateneapartenon (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] Following user sidraseleccion (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] Following user tastingasturias (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] Following user canimo0810722021 (in media likes)
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[followMediaLikers] 3233101206573179529 End media likes 
+[getHashtag] hoalveoviedo Getting user medias 
+[getHashtag] hoalveoviedo Downloading thumbnails user medias ooooooooo
+[getHashtag] hoalveoviedo Downloading user media 3233101206573179529
+[likeMedia] next
+[getHashtag] hoalveoviedo Liking user media 3233101206573179529
+[likeMedia] next
+[getHashtag] hoalveoviedo Downloading user media 3221325711850163202
+[downloadMedia] Downloading media 3221325711850163202
+[getHashtag] hoalveoviedo Downloading user media 3201000018021099186
+[downloadMedia] Downloading media 3201000018021099186
+[getHashtag] hoalveoviedo Liking user media 3201000018021099186
+[likeMedia] Liking media 3201000018021099186
+
+[getHashtag] >>> User abigailmaos
+[getHashtag] + mediaId: 3188862688377230521_6641930273, mediaType: 2, next
+
+[getHashtag] >>> User decomiuniverso
+[getHashtag] + mediaId: 3230998094760747737_5955361230, mediaType: 2, next
+
+[getHashtag] >>> User blogtemqueir
+[getHashtag] + mediaId: 3233224669099796632_865415209, mediaType: 8, Random: 10.134566535059319
+
+[getHashtag] >>> User ramiroarribasplata
+[getHashtag] + mediaId: 3215152815720894061_1443004166, mediaType: 2, Random: 1.6663282259618044
+[downloadMedia] Downloading media 3215152815720894061
+[likeMedia] Liking media 3215152815720894061
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[getHashtag] ramiroarribasplata Getting user medias 
+[getHashtag] ramiroarribasplata Downloading thumbnails user medias ooooooooo
+[getHashtag] ramiroarribasplata Downloading user media 3230923029671865148
+[downloadMedia] Downloading media 3230923029671865148
+[getHashtag] ramiroarribasplata Liking user media 3230923029671865148
+[likeMedia] Liking media 3230923029671865148
+[getHashtag] ramiroarribasplata Downloading user media 3225853842115864774
+[downloadMedia] Downloading media 3225853842115864774
+[getHashtag] REFREEEEEEEEEEEEEEEEEEEEEESH 
+Getting 30 medias for tag management
+[getHashtag] Downloading 30 thumbs -> xooxxxoooxxxxoxxoxxxxxoxxox
+
+[getHashtag] >>> User friedashappyhome
+[getHashtag] + mediaId: 3230203920870152254_44970954716, mediaType: 1, next
+
+[getHashtag] >>> User pillole.di.economia
+[getHashtag] + mediaId: 3233094138307176569_7183786697, mediaType: 2, Random: 1.2930691256881044
+[downloadMedia] Downloading media 3233094138307176569
+[likeMedia] Liking media 3233094138307176569
+[followUser] Max cooldown reached, can't follow 
+[followUser] Day: False, Hour: True
+[getHashtag] pillole.di.economia Getting user medias 
+[getHashtag] pillole.di.economia Downloading thumbnails user medias ooooooooo
+
+[getHashtag] >>> User welcometothejungle_fr
+[getHashtag] + mediaId: 3232226250801908416_2314537060, mediaType: 2, Random: 14.989566415796045
+
+[getHashtag] >>> User christmas.com_
+[getHashtag] + mediaId: 3219153274895859865_51693966094, mediaType: 2, next
+
+[getHashtag] >>> User mypositiveoutlooks
+[getHashtag] + mediaId: 3222351654103162392_1465690530, mediaType: 1, next
+
+[getHashtag] >>> User socialmediajalyn
+[getHashtag] + mediaId: 3220346771916958801_21305596604, mediaType: 8, next
+
+[getHashtag] >>> User corporate_rebels
+[getHashtag] + mediaId: 3232892170155661284_2238498839, mediaType: 1, Random: 4.565110579581363
+
+[getHashtag] >>> User bookoffinance
+[getHashtag] + mediaId: 3221504186632943690_3968497735, mediaType: 8, Random: 7.613903806120627
+
+[getHashtag] >>> User consulenzaconfusa
+[getHashtag] + mediaId: 3232253664075993455_9040044755, mediaType: 1, Random: 9.266531358017327
+
+[getHashtag] >>> User transfor_mem
+[getHashtag] + mediaId: 3228334762076696292_49661449203, mediaType: 1, next
+
+[getHashtag] >>> User cubiclethoughts_
+[getHashtag] + mediaId: 3223012449804098982_61635182031, mediaType: 2, next
+
+[getHashtag] >>> User laulevy
+[getHashtag] + mediaId: 3221504801517409251_182500900, mediaType: 2, next
+
+[getHashtag] >>> User missclairebenjamin
+[getHashtag] + mediaId: 3210656187690546009_59483825881, mediaType: 2, next
+
+[getHashtag] >>> User alba_17_official_
+[getHashtag] + mediaId: 3233100830998986926_1080726877, mediaType: 1, Random: 9.395196416131949
+
+[getHashtag] >>> User goodmornings.life
+[getHashtag] + mediaId: 3215037455270985357_54422935793, mediaType: 2, next
+
+[getHashtag] >>> User mediapart
+[getHashtag] + mediaId: 3227877787188092492_3623974806, mediaType: 8, next
+
+[getHashtag] >>> User freshercareers.in
+[getHashtag] + mediaId: 3222617127490923863_51284415625, mediaType: 8, Random: 4.631376316313384
+
+[getHashtag] >>> User transfor_mem
+[getHashtag] + mediaId: 3206805657854423018_49661449203, mediaType: 1, next
+
+[getHashtag] >>> User ritualofheart
+[getHashtag] + mediaId: 3225343142697833483_32253781553, mediaType: 1, next
+
+[getHashtag] >>> User business_gurukull
+[getHashtag] + mediaId: 3219651329193685715_48798636028, mediaType: 1, next
+
+[getHashtag] >>> User florent_castano
+[getHashtag] + mediaId: 3211356810513720712_58177490961, mediaType: 2, next
+
+[getHashtag] >>> User business_gurukull
+[getHashtag] + mediaId: 3219168300419458562_48798636028, mediaType: 1, next
+
+[getHashtag] >>> User ilcommerciale_
+[getHashtag] + mediaId: 3233113783714262952_46964043607, mediaType: 2, Random: 4.987989017819202
+
+[getHashtag] >>> User consulenzaconfusa
+[getHashtag] + mediaId: 3229912392367848783_9040044755, mediaType: 2, next
+
+[getHashtag] >>> User business_gurukull
+[getHashtag] + mediaId: 3216921160957275192_48798636028, mediaType: 1, next
+
+[getHashtag] >>> User twiss150
+[getHashtag] + mediaId: 3213613947999467026_923087428, mediaType: 2, Random: 12.550203756609026
+
+[getHashtag] >>> User freshercareers.in
+[getHashtag] + mediaId: 3223980832062709218_51284415625, mediaType: 8, next
+******************************************
+******************************************
+ >>>>>>>>>>> User: deskydoopms
+ >>>> Media Count: 6
+ >>>>>> Following: 494
+ >>>>>> Followers: 89
+ >>>>>> 
+ >>>>>>> Today TS: 1699678800.0
+ >>>> Today Likes: 13
+ >>> Today Follow: 6
+ > Today Unfollow: 0
+ >>>>>> 
+ >>>>>>>> Hour Ts: 1699718400.0
+ >>>>> Hour Likes: 13
+ >>>> Hour Follow: 6
+ >> Hour Unfollow: 0
+ >>>>>> 
+ >>>>>> 
+ >>>> Script Flws: 1
+******************************************
+******************************************
+
+#### End Execution # 3
+#### FINISH 
