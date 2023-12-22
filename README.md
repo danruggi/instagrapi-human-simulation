@@ -70,7 +70,8 @@ Bots act in this order:
 - Detect their language from their bio, optionally send them a custom message
 - It downloads the thumbnails of the media  
 - randomly download some image/video/album full resolution  
-- rendomly likes it  
+- randomly likes it (if the number of likes is less than 150 and more than 30)
+- randomly comments it (with the given possible comments)
 - randomly follow the user, with higher chances to follow users with less followers  
 - randomly follow users that liked the media (generally there aren't too much because the posts are new, but that's depends by tags)  
 - randomly check user infos  
