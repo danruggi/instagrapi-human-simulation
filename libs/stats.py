@@ -13,11 +13,13 @@ def printStats(conf):
 	print(" >>>>>> ");
 	print(" >>>>>>> Today TS: "+str(conf["cooldown_day"]["curr"]));
 	print(" >>>> Today Likes: "+str(conf["cooldown_day"]["likes"]));
+	print(" >>>> Today Comments: " + str(conf["cooldown_day"]["comments"]));
 	print(" >>> Today Follow: "+str(conf["cooldown_day"]["follows"]));
 	print(" > Today Unfollow: "+str(conf["cooldown_day"]["unfollows"]));
 	print(" >>>>>> ");
 	print(" >>>>>>>> Hour Ts: "+str(conf["cooldown_hour"]["curr"]));
 	print(" >>>>> Hour Likes: "+str(conf["cooldown_hour"]["likes"]));
+	print(" >>>>> Hour Comments: " + str(conf["cooldown_hour"]["comments"]));
 	print(" >>>> Hour Follow: "+str(conf["cooldown_hour"]["follows"]));
 	print(" >> Hour Unfollow: "+str(conf["cooldown_hour"]["unfollows"]));
 	print(" >>>>>> ");

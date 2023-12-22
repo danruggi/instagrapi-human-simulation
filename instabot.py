@@ -39,16 +39,24 @@ def parseArgs():
 	# Arguments and help
 	parser = argparse.ArgumentParser(description="Human Being simulator using Instagram, to get follows back")
 	subparsers = parser.add_subparsers(dest='command')
+
 	createUser = subparsers.add_parser('new', help="Create new user dir and config files")
-	noInput = subparsers.add_parser('user', help="To run application without the need of providing input. Provide direcly the username",)
+
+	noInput = subparsers.add_parser('user',
+									help="To run application without the need of providing input. Provide directly the username")
 	noInput.add_argument("user", help="provide the desired username", type=str)
-	noInput.add_argument("-max_exec", default=0, help="Set how many execution to run, before to exit", type=int)
+	noInput.add_argument("-max_exec", default=0, help="Set how many executions to run before exiting", type=int)
+
+	# Add the debug argument
+	parser.add_argument('--debug', action='store_true', help="Enable debug mode to display errors")
+
 	args = parser.parse_args()
 
-	conf = {'METHOD': args.command}
+	conf = {'METHOD': args.command, 'DEBUG': args.debug}
 	if args.command == 'user':
 		conf['USER'] = args.user
 		conf['MAX_EXEC'] = args.max_exec
+
 
 	return conf	
 

@@ -41,6 +41,11 @@ class botConf():
 		self.conf["cooldown_hour"]["likes"] += 1;
 		self.writeConf();
 
+	def confAddComment(self):
+		self.conf["cooldown_day"]["comments"] += 1;
+		self.conf["cooldown_hour"]["comments"] += 1;
+		self.writeConf();
+
 	def confAddFollow(self):
 		self.conf["cooldown_day"]["follows"] += 1;
 		self.conf["cooldown_hour"]["follows"] += 1;
