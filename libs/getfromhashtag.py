@@ -1,9 +1,8 @@
-import urllib
-import urllib.request
-import random
 import time
+import urllib.request
 from libs.media import *
 from libs.followusers import *
+import traceback
 
 def getFromHashtag(conf, cursor=None):
 	tags = conf["tags"].split(";");
@@ -38,6 +37,11 @@ def getFromHashtag(conf, cursor=None):
 
 		# Hashtags liking medias
 		for x in medias:
+			# If the post is too much liked, skip it
+			if not (30 < x.like_count < 150):
+				print("[getHashtag] >>> User "+x.user.username+" has too much likes, skipping")
+				continue
+
 			print("");
 			print("[getHashtag] >>> User "+x.user.username)
 			print("[getHashtag] + mediaId: "+x.id+", mediaType: "+str(x.media_type), end=', ')
@@ -52,7 +56,7 @@ def getFromHashtag(conf, cursor=None):
 				f.write(str(x.id)+"\n")
 			
 			# print(x.dict())
-			r1=random.uniform(0, 15);
+			r1=random.uniform(0, 10);
 			print("Random: "+str(r1));
 
 			if (len(conf["forced_words"]) > 0):
@@ -64,21 +68,22 @@ def getFromHashtag(conf, cursor=None):
 					else:
 						r1=15;
 
-			if r1<4:
+			if r1<5:
 				downloadMedia(conf, x.pk, x.media_type, x.product_type);
 				s=random.randrange(1,10)
 				time.sleep(s);
 
-			if r1<3.5:
+			if r1<4:
 				likeMedia(conf, x.pk, x.product_type)
 				s=random.uniform(1,20)
 				time.sleep(s);
 
 			if r1<3.3:
 				followUser(conf, x.user.pk);
+				commentMedia(conf, x.pk, x.user.username, x.product_type)
 				r2=random.randint(0,100)
 				if r2<20:
-					followMediaLikers(conf, x.pk);
+					# followMediaLikers(conf, x.pk);
 					s=random.uniform(.2,2)
 					time.sleep(s);
 					
@@ -120,11 +125,13 @@ def getFromHashtag(conf, cursor=None):
 				s=random.randrange(2,9)
 				time.sleep(s);
 	except Exception as e:
+		if conf['DEBUG']:
+			traceback.print_exc()
 		print("Some error occurred in execution")
 		print(e)
 
 	s=random.randrange(0,10)
-	if (s>5 and refreshed==False):
+	if s>5 and refreshed==False:
 		print("[getHashtag] REFREEEEEEEEEEEEEEEEEEEEEESH ")
 		s=random.randrange(5,15)
 		time.sleep(s);

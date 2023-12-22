@@ -2,3 +2,4 @@ instagrapi
 pytz
 langdetect
 pillow
+emoji

@@ -1,5 +1,8 @@
 conf/
 downloads/
 classes/__pycache__/
+.idea/
+libs/
+modules/
 instagrapi_code/*/__init__.py
 instagrapi_code/.gitignore

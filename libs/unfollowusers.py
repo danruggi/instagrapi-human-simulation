@@ -63,7 +63,7 @@ def unfollowUsers(conf):
 			if (x.pk in line):
 				t = line.split(":")[0]
 				diffInDays = int((time.mktime(time.strptime(str(datetime.now(timezone.utc)).split(".")[0], "%Y-%m-%d %H:%M:%S")) - float(t))/14400);
-				if (diffInDays < 30):
+				if (diffInDays < conf["unfollow_after"]):
 					print("[unfollowUser] can't unfollow: "+x.username+", following since days: "+str(diffInDays))
 					unfollow=False
 					break
